@@ -3,7 +3,7 @@ body {
     justify-content:center; /* Centra horizontalmente */  
     align-items: center;     /* Centra verticalmente */  
     height: 100vh;
-    background-image: url(img/fondo_calculadora.webp); 
+    background-image: url(/img/fondo_calculadora.webp); 
     background-size: 300px; 
 }
 .calculadora{
