@@ -1,0 +1,54 @@
+body {
+    display: flex;  
+    justify-content:center; /* Centra horizontalmente */  
+    align-items: center;     /* Centra verticalmente */  
+    height: 100vh;
+    background-image: url(img/fondo_calculadora.webp); 
+    background-size: 300px; 
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+}
+.display{
+    border-style:solid ;
+    text-align: right;
+    border-width: 10px black;
+    border-radius: 5px;
+    width: 16.5rem;
+    height: 4rem;
+    margin-bottom: 2px;
+    font-size: 2.2em;
+    cursor: pointer;
+    box-shadow: 5px 5px 7px 2px rgb(237, 154, 221)  
+}
+.fila{ 
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas igual de anchas */  
+    grid-gap: 5px; /* Espacio entre los elementos */  
+}
+button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+    background-color: black;
+    color: #eee;
+    font-size: 2em;
+    cursor: pointer;  
+    box-shadow: 5px 5px 7px 2px rgb(133, 134, 236)
+}
+
+.fila {
+    display: block;
+    
+}
+button:hover{
+    background: linear-gradient(70deg, blue, pink);;
+  }
+
+.display:hover{
+    background: linear-gradient(70deg, rgb(243, 237, 238), rgb(247, 210, 216));;
+  }
