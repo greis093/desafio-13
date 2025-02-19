@@ -2,7 +2,7 @@
 
 # Link de GitHub: git@github.com:greis093/desafio-13.git
 
-# Link de netlify: https://brilliant-cheesecake-d8520a.netlify.app/
+# Link de netlify: integrador-agreda-01.netlify.app
 
 ## Ejercicio: Realizar una calculadora en HTML, JavaScript y style
 
